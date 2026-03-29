@@ -14,6 +14,7 @@ SOURCES=(
     VercelDeploys/Views/LoginView.swift
     VercelDeploys/Views/DeploymentListView.swift
     VercelDeploys/Views/DeploymentDetailView.swift
+    VercelDeploys/Views/GroupDetailView.swift
     VercelDeploys/Views/ContentView.swift
     VercelDeploys/AppDelegate.swift
     VercelDeploys/VercelDeploysApp.swift
