@@ -1,0 +1,12 @@
+{
+  "/Users/seb/VercelDeploys/VercelDeploys/AppDelegate.swift" : {
+    "abi-baseline-json" : "/Users/seb/VercelDeploys/build/derived/Build/Intermediates.noindex/VercelDeploys.build/Release/VercelDeploys.build/Objects-normal/arm64/VercelDeploys.abi.json",
+    "const-values" : "/Users/seb/VercelDeploys/build/derived/Build/Intermediates.noindex/VercelDeploys.build/Release/VercelDeploys.build/Objects-normal/arm64/VercelDeploys-primary.swiftconstvalues",
+    "dependencies" : "/Users/seb/VercelDeploys/build/derived/Build/Intermediates.noindex/VercelDeploys.build/Release/VercelDeploys.build/Objects-normal/arm64/VercelDeploys-primary.d",
+    "diagnostics" : "/Users/seb/VercelDeploys/build/derived/Build/Intermediates.noindex/VercelDeploys.build/Release/VercelDeploys.build/Objects-normal/arm64/VercelDeploys-primary.dia",
+    "objc-header" : "/Users/seb/VercelDeploys/build/derived/Build/Intermediates.noindex/VercelDeploys.build/Release/VercelDeploys.build/Objects-normal/arm64/VercelDeploys-Swift.h",
+    "swiftdoc" : "/Users/seb/VercelDeploys/build/derived/Build/Intermediates.noindex/VercelDeploys.build/Release/VercelDeploys.build/Objects-normal/arm64/VercelDeploys.swiftdoc",
+    "swiftmodule" : "/Users/seb/VercelDeploys/build/derived/Build/Intermediates.noindex/VercelDeploys.build/Release/VercelDeploys.build/Objects-normal/arm64/VercelDeploys.swiftmodule",
+    "swiftsourceinfo" : "/Users/seb/VercelDeploys/build/derived/Build/Intermediates.noindex/VercelDeploys.build/Release/VercelDeploys.build/Objects-normal/arm64/VercelDeploys.swiftsourceinfo"
+  }
+}

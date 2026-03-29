@@ -1,0 +1,63 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "a9ba817bd8e9d0a71a533100e7faedd025cc7359f9ada40ac0e5f96f4459bbf4"
+    }
+  ],
+  "containerPath" : "/Users/seb/VercelDeploys/VercelDeploys.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx26.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/seb/VercelDeploys/build/derived/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/seb/VercelDeploys/build/derived/Build/Products",
+      "derivedDataPath" : "/Users/seb/VercelDeploys/build/derived",
+      "indexDataStoreFolderPath" : "/Users/seb/VercelDeploys/build/derived/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/seb/VercelDeploys/build/derived/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/seb/VercelDeploys/build/derived/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "ONLY_ACTIVE_ARCH" : "NO"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

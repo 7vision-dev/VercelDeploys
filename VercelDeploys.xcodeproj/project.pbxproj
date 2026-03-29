@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09485576FED0B04C6F271382 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603A7877034EA914911381C /* KeychainHelper.swift */; };
+		283F252A7B0923785756F449 /* GroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BBC0DC08FA93B2DBD63D8 /* GroupDetailView.swift */; };
+		3B7ACAB4E3045379518BDA01 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EDD6DEABE7C3B47C6D119A /* LoginView.swift */; };
+		88A33A22C0CB5848A650E377 /* Deployment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B37C2EC912332973DC43397 /* Deployment.swift */; };
+		99508951598037A577B5B14A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE3A1CB83B94C1C361D8CE6 /* AppDelegate.swift */; };
+		B2ED94F09A88DBBEB5A12D8E /* VercelDeploysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6AA8DEBE19BB4E905805AB /* VercelDeploysApp.swift */; };
+		CE163A49B35942A6FD0D4876 /* DeploymentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B624CAA96470C0E32D18A0A /* DeploymentDetailView.swift */; };
+		D65985C693E1A751891705FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57DAE4431ADD903EA18231A /* ContentView.swift */; };
+		D9D499343C898E9548EBDB02 /* DeploymentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E9C6B59571E88513B38B4 /* DeploymentListView.swift */; };
+		DDDFFEE77D62C93C14AF7AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3525104BD9A0CCD24298E0 /* Assets.xcassets */; };
+		E9FC6FADAB464EA7C176B618 /* VercelAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439BD469EF62A85D4755B75 /* VercelAPIClient.swift */; };
+		F7057202CE81E371FE0C48C6 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D214B440650383A62F435215 /* AppViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B37C2EC912332973DC43397 /* Deployment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deployment.swift; sourceTree = "<group>"; };
+		1D2E9C6B59571E88513B38B4 /* DeploymentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeploymentListView.swift; sourceTree = "<group>"; };
+		1D3525104BD9A0CCD24298E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2439BD469EF62A85D4755B75 /* VercelAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VercelAPIClient.swift; sourceTree = "<group>"; };
+		2C6AA8DEBE19BB4E905805AB /* VercelDeploysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VercelDeploysApp.swift; sourceTree = "<group>"; };
+		3667FC9F818FFF5DE6D8E4AB /* VercelDeploys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VercelDeploys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A490111E2E7074CDFD6A7B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7B624CAA96470C0E32D18A0A /* DeploymentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeploymentDetailView.swift; sourceTree = "<group>"; };
+		845BBC0DC08FA93B2DBD63D8 /* GroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailView.swift; sourceTree = "<group>"; };
+		87EDD6DEABE7C3B47C6D119A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A603A7877034EA914911381C /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		C57DAE4431ADD903EA18231A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFE3A1CB83B94C1C361D8CE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D214B440650383A62F435215 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		E1712B6A391E3E3A4AC5424F /* VercelDeploys.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VercelDeploys.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2B5AAD8D513FEAE30464B343 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D214B440650383A62F435215 /* AppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		40F958A632DE9FE8F44C377D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B37C2EC912332973DC43397 /* Deployment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8923C5D19C90E1A3086A8558 /* VercelDeploys */ = {
+			isa = PBXGroup;
+			children = (
+				CFE3A1CB83B94C1C361D8CE6 /* AppDelegate.swift */,
+				1D3525104BD9A0CCD24298E0 /* Assets.xcassets */,
+				6A490111E2E7074CDFD6A7B7 /* Info.plist */,
+				E1712B6A391E3E3A4AC5424F /* VercelDeploys.entitlements */,
+				2C6AA8DEBE19BB4E905805AB /* VercelDeploysApp.swift */,
+				40F958A632DE9FE8F44C377D /* Models */,
+				D3A850A56B6D76C9AB044B82 /* Services */,
+				2B5AAD8D513FEAE30464B343 /* ViewModels */,
+				BFA628DE0B6B0DCE99DDF3D7 /* Views */,
+			);
+			path = VercelDeploys;
+			sourceTree = "<group>";
+		};
+		9B5753ACAFCFD8A8BEA9A26B = {
+			isa = PBXGroup;
+			children = (
+				8923C5D19C90E1A3086A8558 /* VercelDeploys */,
+				AA270B68983FD83108CAE9F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA270B68983FD83108CAE9F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3667FC9F818FFF5DE6D8E4AB /* VercelDeploys.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA628DE0B6B0DCE99DDF3D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C57DAE4431ADD903EA18231A /* ContentView.swift */,
+				7B624CAA96470C0E32D18A0A /* DeploymentDetailView.swift */,
+				1D2E9C6B59571E88513B38B4 /* DeploymentListView.swift */,
+				845BBC0DC08FA93B2DBD63D8 /* GroupDetailView.swift */,
+				87EDD6DEABE7C3B47C6D119A /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3A850A56B6D76C9AB044B82 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A603A7877034EA914911381C /* KeychainHelper.swift */,
+				2439BD469EF62A85D4755B75 /* VercelAPIClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE99CFEF5F637C28FEBFBD94 /* VercelDeploys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F5DA3147FE44E077CAD946 /* Build configuration list for PBXNativeTarget "VercelDeploys" */;
+			buildPhases = (
+				2209064CB0E8124D2C245CCB /* Sources */,
+				81ED8BF98F02D2C45B84B520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VercelDeploys;
+			packageProductDependencies = (
+			);
+			productName = VercelDeploys;
+			productReference = 3667FC9F818FFF5DE6D8E4AB /* VercelDeploys.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99D07F49321D353A37090217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = F2815E4518B485FED5D5BCE3 /* Build configuration list for PBXProject "VercelDeploys" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9B5753ACAFCFD8A8BEA9A26B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AA270B68983FD83108CAE9F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE99CFEF5F637C28FEBFBD94 /* VercelDeploys */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81ED8BF98F02D2C45B84B520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDFFEE77D62C93C14AF7AC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2209064CB0E8124D2C245CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99508951598037A577B5B14A /* AppDelegate.swift in Sources */,
+				F7057202CE81E371FE0C48C6 /* AppViewModel.swift in Sources */,
+				D65985C693E1A751891705FF /* ContentView.swift in Sources */,
+				88A33A22C0CB5848A650E377 /* Deployment.swift in Sources */,
+				CE163A49B35942A6FD0D4876 /* DeploymentDetailView.swift in Sources */,
+				D9D499343C898E9548EBDB02 /* DeploymentListView.swift in Sources */,
+				283F252A7B0923785756F449 /* GroupDetailView.swift in Sources */,
+				09485576FED0B04C6F271382 /* KeychainHelper.swift in Sources */,
+				3B7ACAB4E3045379518BDA01 /* LoginView.swift in Sources */,
+				E9FC6FADAB464EA7C176B618 /* VercelAPIClient.swift in Sources */,
+				B2ED94F09A88DBBEB5A12D8E /* VercelDeploysApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D9E95A2DC9789973A574A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_ENTITLEMENTS = VercelDeploys/VercelDeploys.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VercelDeploys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seb.VercelDeploys;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		245821E24A192A1979CE38A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_ENTITLEMENTS = VercelDeploys/VercelDeploys.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VercelDeploys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seb.VercelDeploys;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		2A896F060E04AA729E2BBE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A0BD0B1D55D798B06DD39D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83F5DA3147FE44E077CAD946 /* Build configuration list for PBXNativeTarget "VercelDeploys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9E95A2DC9789973A574A8D /* Debug */,
+				245821E24A192A1979CE38A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F2815E4518B485FED5D5BCE3 /* Build configuration list for PBXProject "VercelDeploys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A896F060E04AA729E2BBE12 /* Debug */,
+				A0BD0B1D55D798B06DD39D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99D07F49321D353A37090217 /* Project object */;
+}
